@@ -34,7 +34,7 @@ body {
 }
 
 .prueba-cuadrado {
-  width: 580px;
+  width: 520px;
   height: 50px;
   background-color: blue;
   display: block;
@@ -42,7 +42,7 @@ body {
 }
 
 .prueba-cuadrado2 {
-  width: 1050px;
+  width: 1000px;
   height: 50px;
   background-color: red;
   display: block;
