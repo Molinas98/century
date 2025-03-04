@@ -130,11 +130,12 @@ a {
 /*Distribuciones*/
 .start-x, .start-y, .center-x, .center-y,
 .between-x, .between-y, .end-y, .end-x, .around-x {
-  display: flex !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .start-y, .center-y, .between-y, .end-y {
-  flex-direction: column !important;
+  flex-direction: column;
 }
 
 .start-x, .start-y {
@@ -158,7 +159,8 @@ a {
 }
 
 .end-y, .end-x {
-  justify-content: end !important;
+  align-items: end;
+  justify-content: end;
 }
 
 /*Estilos*/
