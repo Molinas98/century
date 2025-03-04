@@ -39,6 +39,14 @@ body {
     height: 50px;
     background-color: blue;
     display: block;
+    color: white;
+}
+
+.prueba-cuadrado2 {
+    width: 1080px;
+    height: 50px;
+    background-color: red;
+    display: block;
 }
 
 h1 {
