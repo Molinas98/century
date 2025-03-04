@@ -356,6 +356,11 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
         height: 49px;
     }
+
+    & label {
+        font-size: 13px;
+        font-weight: 700;
+    }
 }
 
 .disponibles {
@@ -382,21 +387,21 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
         }
 
         & a {
-            width: 65px;
-            height: 65px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             background-color: var(--white);
             display: flex;
             align-items: center;
             justify-content: center;
             position: absolute;
-            right: 18px;
-            top: 24px;
+            right: 10px;
+            top: 12px;
             transition: all 0.5s ease;
 
             & img {
                 transition: all 0.5s ease;
-                width: 35px;
+                width: 25px;
             }
 
             &:hover {
@@ -612,7 +617,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
 
 .popup-propiedad {
-    width: 1740px;
+    width: 95dvw;
     min-height: 95dvh;
     background-color: #222;
     padding: 20px;
@@ -632,26 +637,27 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
 
     & #close {
-        width: 57px;
-        height: 54px;
+        width: 40px;
+        height: 40px;
         border-radius: 10px;
         background: #9D8853;
         color: var(--white);
         color: #FFF;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         position: absolute;
-        top: 40px;
-        right: 50px;
+        top: 30px;
+        right: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         z-index: 100;
+        cursor: pointer;
     }
 
     .contenedor-propiedad {
         background-color: white;
-        width: 1595px;
+        width: 90dvw;
         height: 85dvh;
         border-radius: 15px;
         display: flex;
