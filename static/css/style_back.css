@@ -1,0 +1,62 @@
+h1, h2, p, label, th {
+    color: white !important; 
+}
+
+table thead {
+    background-color: #171563;
+}
+
+table {
+    backdrop-filter: blur(3px);
+}
+
+td {
+    color: white !important;
+}
+
+button {
+    background-color: white !important;
+    color: #171563 !important;
+    border: 3px solid #171563 !important;
+    transition: 0.5s all ease;
+}
+
+button:hover {
+    background-color: #171563 !important;
+    color: white !important;
+    border: 3px solid white !important;
+}
+
+.btn-secundario {
+    background-color: #171563 !important;
+    color: white !important;
+    border: 3px solid white !important;
+    transition: 0.5s all ease;
+}
+
+.btn-secundario:hover {
+    background-color: white !important;
+    color: #171563 !important;
+}
+
+.borde {
+    border: none !important;
+}
+
+.borde:hover {
+    border: none !important;
+}
+
+.acciones_icono {
+    width: 15px;
+}
+
+.vendido td {
+    color: grey !important;
+}
+
+#icono_modificar {
+    background: none !important;
+    border: none !important;
+    padding: 0;
+}
