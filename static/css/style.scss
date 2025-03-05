@@ -468,7 +468,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 12px;
+    padding-inline: 12px !important;
     margin-right: 0.5rem;
 
     & span {
