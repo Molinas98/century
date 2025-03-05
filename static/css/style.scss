@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
     margin-inline: auto;
     font-family: 'PlusJakarta';
-    font-size: 1rem;
+    font-size: 14px;
     background: #222;
 }
 
@@ -186,7 +186,7 @@ button {
     color: rgba(0, 0, 0, 0.60);
     font-weight: 800;
     width: 100%;
-    height: 49px;
+    height: 41px;
     font-size: 15px;
     transition: all 0.5s ease;
     border-radius: 10px;
@@ -219,8 +219,8 @@ button {
     max-width: 1740px;
 }
 
-.pt-100 {
-    padding-top: 100px;
+.pt-50 {
+    padding-top: 50px;
     background: var(--white);
 }
 
@@ -269,7 +269,7 @@ main {
   
 
 .form-consulta input {
-    height: 50px;
+    height: 41px;
     border-radius: 10px;
     border: 1px solid #222 !important;
     background: #383838 !important;
@@ -336,7 +336,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
     border: 1px solid #E4E4E4;
     background: #FFF;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 49px;
+    height: 41px;
 }
 
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
@@ -371,7 +371,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
         border: 1px solid #E4E4E4;
         background: #FFF;
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-        height: 49px;
+        height: 41px;
         font-size: 12px;
     }
 
@@ -489,17 +489,17 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 }
 
 .form-consulta {
-    padding: 50px 40px 0 40px;
+    padding: 30px 30px 0 30px;
 
     h3 {
         color: var(--white);
-        font-size: 35px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.3;
         letter-spacing: -1px;
         max-width: 402px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     label {
@@ -509,12 +509,12 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
 .slick-arrow {
     cursor: pointer;
-    padding: 20px;
+    padding: 12px;
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
     z-index: 5;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 3px solid var(--white);
     background: rgba(255, 255, 255, 0.2);
@@ -525,27 +525,26 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 }
 
 .prev {
-    right: 8rem;
+    right: 5.5rem;
 }
 
 .next {
-    right: 2rem;
+    right: 1.5rem;
 }
 
 .preguntas-section {
-    padding: 100px 60px;
+    padding: 80px 0px;
 
     & h2 {
         color: rgba(0, 0, 0, 0.80);
-        font-size: 55px;
+        font-size: 42px;
         font-weight: 600;
         letter-spacing: -1px;
-        margin-bottom: 32px;
+        margin-bottom: 1rem;
     }
 
     & p {
         color: rgba(0, 0, 0, 0.50);
-        font-size: 16px;
         font-weight: 600;
         line-height: 1.56;
         letter-spacing: -0.5px;
@@ -554,6 +553,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
     & .subtitulo {
         max-width: 311px;
+        margin-bottom: 2rem;
     }
 }
 
@@ -569,7 +569,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
 .faqs .accordion-button {
     color: var(--blue);
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
@@ -588,7 +588,6 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 }
 .faqs .accordion-body p {
     color: var(--gray);
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.8;
@@ -602,7 +601,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 }
 
 .carrusel-mensaje {
-    padding: 100px 0;
+    padding: 40px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.30);
     border-bottom: 1px solid rgba(0, 0, 0, 0.30);
 
@@ -621,7 +620,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
     & h2 {
         color: var(--white);
-        font-size: 180px;
+        font-size: 140px;
         font-weight: 700;
         line-height: 0.3;
         letter-spacing: -0.5px;
@@ -629,7 +628,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
         left: 0;
         right: 0;
         margin-inline: auto;
-        bottom: 150px;
+        bottom: 100px;
         text-align: center;
     }
 }
@@ -638,6 +637,7 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 .popup-propiedad {
     width: 95dvw;
     min-height: 95dvh;
+    max-height: 95dvh;
     background-color: #222;
     padding: 20px;
     display: flex;
@@ -656,17 +656,17 @@ input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:
 
 
     & #close {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 10px;
         background: #9D8853;
         color: var(--white);
         color: #FFF;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
         position: absolute;
-        top: 30px;
-        right: 20px;
+        top: 20px;
+        right: 15px;
         display: flex;
         align-items: center;
         justify-content: center;

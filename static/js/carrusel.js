@@ -21,8 +21,8 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 0,
         speed: 4000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 0.5,
+        slidesToScroll: 0.5,
         cssEase: 'linear', // Transición continua y sin pausas
         pauseOnHover: false,
     });
