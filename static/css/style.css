@@ -626,8 +626,8 @@ input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focu
   font-size: 25px;
   font-weight: 700;
   position: absolute;
-  top: 20px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,8 +667,10 @@ input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focu
   font-weight: 800;
 }
 .popup-propiedad .amenidades {
-  gap: 2rem;
   max-width: 500px;
+}
+.popup-propiedad .amenidades .amenidad {
+  padding-right: 2rem;
 }
 .popup-propiedad .amenidades img {
   margin-right: 0.5rem;
