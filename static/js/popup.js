@@ -8,4 +8,16 @@ $(document).ready(function () {
         $('.overlay').toggleClass("collapse");
     });
 
+
+    $('.todas.mb--30').click(function () {
+        $('.tarjeta .mapa').addClass("collapse");
+        $('.tarjeta iframe').removeClass("collapse");
+        $(this).addClass("collapse");
+    });
+
+    $('.todas.mb--30.mt-0').click(function () {
+        $('.mapa2 .mapa').addClass("collapse");
+        $('.mapa2 iframe').removeClass("collapse");
+        $(this).addClass("collapse");
+    });
 });
